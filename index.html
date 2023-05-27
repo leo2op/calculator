@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="calculator-heading">Calculator</h1>
+    <div class="calculator">
+    <div class="container">
+        <div class="result-screen">
+            <input type="text" name="result" id="result" class="result" readonly>
+        </div>
+
+        <div class="buttons-div">
+        <div class="button-row">
+            <button id="buttonofcalc" class="buttons" onclick="btnroot();">√</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnsquare();">x<sup>2</sup></button>
+            <button id="buttonofcalc" class="buttons" onclick="clearresult();">C</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick('/')">&divide;</button>
+        </div>
+        <div class="button-row">
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(7)">7</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(8)">8</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(9)">9</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick('*')">x</button>
+        </div>
+        <div class="button-row">
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(4)">4</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(5)">5</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(6)">6</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick('-')">-</button>
+        </div>
+        <div class="button-row">
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(1)">1</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(2)">2</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(3)">3</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick('+')">+</button>
+        </div>
+        <div class="button-row">
+            <button id="buttonofcalc" class="buttons" onclick="reciprocal();">1/x</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick(0)">0</button>
+            <button id="buttonofcalc" class="buttons" onclick="btnclick('.')">.</button>
+            <button class="buttons-equals" onclick="equalclick()">=</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+
+
